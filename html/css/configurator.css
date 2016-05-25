@@ -1,0 +1,210 @@
+/* CSS Document */
+
+#configurator{
+	position:relative;
+	width:1200px;
+	height:600px;
+	left:-30px;
+	/*outline:1px solid red;*/
+}
+
+
+#configurator #preloader-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	/*outline:1px solid blue;*/
+}
+#configurator #preloader-wrapper #progress-bar{
+	position:absolute;
+	width:320px;
+	height:10px;
+	left:439px;
+	top:294px;
+	border:1px solid #a45710;
+}
+#configurator #preloader-wrapper #complete-bar{
+	position:relative;
+	width:0px;
+	height:10px;
+	left:0px;
+	top:0px;
+	background-color:#ff9727;
+}
+#configurator #preloader-wrapper #perc{
+	position:relative;
+	height:30px;
+	left:0px;
+	top:-40px;
+	font:24px / 30px Arial Black, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+
+#configurator .building{
+	position:absolute;
+	width:1200px;
+	height:600px;
+	top:0px;
+	left:0px;
+	/*outline:1px solid red;*/
+}
+#configurator #building1{	background:url(../images/building1/building1.png) center center no-repeat;}
+#configurator #building2{	background:url(../images/building2/building2.png) center center no-repeat;}
+
+#configurator #svg{position:absolute;top:0;left:0;}
+
+#configurator .click-zone{cursor:pointer; }
+
+#building1 .elemnt-highlight{
+	position:absolute;
+	width:1200px;
+	height:600px;
+	top:0;
+	left:0;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+
+#building1 .decorkamen-highlight{background-image:url(../images/building1/decorkamen.png);}
+#building1 .fluger-highlight{background-image:url(../images/building1/fluger.png);}
+#building1 .lesnica_stena-highlight{background-image:url(../images/building1/lesnica_stena.png);}
+#building1 .lesnica_cherdak-highlight{background-image:url(../images/building1/lesnica_cherdak.png);}
+#building1 .lesnica_krovla-highlight{background-image:url(../images/building1/lesnica_krovla.png);}
+#building1 .okno_balkon-highlight{background-image:url(../images/building1/okno_balkon.png);}
+#building1 .okno-highlight{background-image:url(../images/building1/okno.png);}
+#building1 .planki_karniznie-highlight{background-image:url(../images/building1/planki_karniznie.png);}
+#building1 .planki_konka-highlight{background-image:url(../images/building1/planki_konka.png);}
+#building1 .podshivka_svesa_krovli-highlight{background-image:url(../images/building1/podshivka_svesa_krovli.png);}
+#building1 .plitka-highlight{background-image:url(../images/building1/plitka.png);}
+#building1 .snegozaderjatel-highlight{background-image:url(../images/building1/snegozaderjatel.png);}
+#building1 .svet-highlight{background-image:url(../images/building1/svet.png);}
+#building1 .truba_fundament-highlight{background-image:url(../images/building1/truba_fundament.png);}
+#building1 .ventil-ktv-highlight{background-image:url(../images/building1/ventil_ktv.png);}
+#building1 .vihod_vitjagki_s_prohodnim_elementom-highlight{background-image:url(../images/building1/vihod_vitjagki_s_prohodnim_elementom.png);}
+#building1 .vihod_kanalizacii_metal_profil-highlight{background-image:url(../images/building1/vihod_kanalizacii_metal_profil.png);}
+#building1 .vihod_kanalizacii_s_prohodnim_elementom-highlight{background-image:url(../images/building1/vihod_kanalizacii_s_prohodnim_elementom.png);}
+#building1 .vihod_universal-highlight{background-image:url(../images/building1/vihod_universal.png);}
+#building1 .vodootvod-highlight{background-image:url(../images/building1/vodootvod.png);}
+#building1 .vorotagaraj-highlight{background-image:url(../images/building1/vorotagaraj.png);}
+#building1 .vodostochsys-highlight{background-image:url(../images/building1/vodostochsys.png);}
+#building1 .zabor-highlight{background-image:url(../images/building1/zabor.png);}
+
+#building1 .i_krovla-highlight{background-image:url(../images/building1/i_krovla.png);}
+#building1 .i_vnutr_stena-highlight{background-image:url(../images/building1/i_vnutr_stena.png);}
+#building1 .i_pol-highlight{background-image:url(../images/building1/i_pol.png);}
+#building1 .i_potolok-highlight{background-image:url(../images/building1/i_potolok.png);}
+#building1 .i_fundament-highlight{background-image:url(../images/building1/i_fundament.png);}
+#building1 .i_stena_right-highlight{background-image:url(../images/building1/i_stena_right.png);}
+#building1 .i_stena_left-highlight{background-image:url(../images/building1/i_stena_left.png);}
+
+
+
+#configurator .eye{
+	position:absolute;
+	width:45px;
+	height:45px;
+	top:400px;
+	left:400px;
+	background:url(../images/eye.png) center center no-repeat;
+}
+#building1 .eye.i_krovla{top:188px; left:575px;}
+#building1 .eye.i_vnutr_stena{top:340px; left:570px;}
+#building1 .eye.i_pol{top:453px; left:535px;}
+#building1 .eye.i_potolok{top:247px; left:540px;}
+#building1 .eye.i_fundament{top:492px; left:406px;}
+#building1 .eye.i_stena_right{top:340px; left:621px;}
+#building1 .eye.i_stena_left{top:340px; left:404px;}
+
+
+#building2 .eye.i_krovla1{top:54px; left:458px;}
+#building2 .eye.i_krovla2{top:140px; left:700px;}
+#building2 .eye.i_stena1{top:300px; left:280px;}
+#building2 .eye.i_stena2{top:270px; left:560px;}
+#building2 .eye.i_fundament1{top:463px; left:455px;}
+#building2 .eye.i_fundament2{top:445px; left:885px;}
+
+
+
+
+#configurator .pie{
+	position:absolute;
+	width:376px;
+	height:376px;
+	left:412px;
+	top:112px;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#configurator #pie1{background-image:url(../images/building1/pie1.png);}
+#configurator #pie2{background-image:url(../images/building1/pie2.png);}
+#configurator #pie3{background-image:url(../images/building1/pie3.png);}
+#configurator #pie4{background-image:url(../images/building1/pie4.png);}
+#configurator #pie5{background-image:url(../images/building1/pie5.png);}
+#configurator #pie6{background-image:url(../images/building1/pie6.png);}
+#configurator #pie7{background-image:url(../images/building1/pie7.png);}
+
+#configurator #pie10{background-image:url(../images/building2/pie1.png);}
+#configurator #pie11{background-image:url(../images/building2/pie1.png);}
+#configurator #pie12{background-image:url(../images/building2/pie1.png);}
+#configurator #pie13{background-image:url(../images/building2/pie1.png);}
+#configurator #pie14{background-image:url(../images/building2/pie1.png);}
+#configurator #pie15{background-image:url(../images/building2/pie1.png);}
+
+
+
+#configurator .info-description{
+	position:absolute;
+	height:40px;
+	top:50px;
+	left:50px;
+	padding-left:50px;
+	background:url(../images/info.png) left center no-repeat;
+	line-height:20px;
+}
+
+#configurator #info-block{
+	position:absolute;
+	width:220px;
+	top:50px;
+	right:50px;
+	padding:15px 0;	
+	background-color:#fff;
+	border:1px solid #dedede;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#configurator #info-block .block-title{
+	margin-bottom:10px;
+	padding:0 15px;
+	font:14px / 18px Arial Black, Arial, Helvetica, sans-serif;
+}
+#configurator #info-block .block-content{
+	/*height:200px;*/
+	padding:0 15px;
+	overflow:auto;
+	font-size:11px;
+	font-size:12px;
+	line-height:16px;
+}
+#configurator #info-block .block-content li{
+	margin:5px 0 5px 15px;
+	cursor:pointer;
+	line-height:20px;
+}
+#configurator #info-block .block-content li span{color:#cb7913;text-decoration:underline;}
+#configurator #info-block .block-content .block-link{margin-top:10px; text-align:right;}
+
+#configurator #info-block .block-button{
+	display:block;
+	position:absolute;
+	width:22px;
+	height:22px;
+	top:-11px;
+	cursor:pointer;
+}
+
+#configurator #info-block #block-back{left:-11px;		background:url(../images/infoblock_back.png) center center no-repeat;}
+#configurator #info-block #block-close{right:-11px;	background:url(../images/infoblock_close.png) center center no-repeat;}

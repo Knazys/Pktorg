@@ -1,0 +1,112 @@
+/* CSS Document */
+
+
+.post{margin-bottom:40px;text-align:left;}
+
+
+.post-image{margin-right:15px; float:left;}
+.post-image a{
+	display:block;
+	font-size:0;
+	line-height:0;
+}
+.post-image img{max-width:136px;}
+
+
+.post h2{
+	font-size:14px;
+	line-height:18px;
+	margin-bottom:10px;
+}
+
+.post-description,
+.post-content{
+	font-size:12px;
+	line-height:18px;
+}
+
+
+#page-articles .post-image a,
+#page-stock .post-image a{
+	padding:4px;
+	background:#f7f7f7;
+	border:1px solid #dedede;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+#page-stock .post{padding-right:30px;}
+#page-stock .post-image img{max-width:200px;}
+
+
+#page-catalog .post{width:180px; margin:0 auto 40px;}
+#page-catalog .post-image{float:none; margin:0 0 10px;}
+#page-catalog .post-image img{max-width:100%;}
+#page-catalog .post-description{font-size:11px;}
+
+
+#page-catalog-post .post-image{float:none; margin-bottom:10px; display:inline-block;}
+#page-catalog-post img{max-width:100%;}
+#page-catalog-post .post-meta{max-width:50%; display:inline-block;}
+#page-catalog-post .post-meta table{text-align:left;}
+#page-catalog-post .post-meta table td{padding:5px 15px 5px 0;}
+#page-catalog-post .post-content{float:none;}
+
+
+#page-contacts .post-content{line-height:22px;}
+#page-contacts .post-content h1{margin-bottom:5px;}
+#page-contacts .post-content h2{margin-bottom:0px;}
+
+.post-content table{
+	border-collapse:collapse;
+	margin:10px 0;
+}
+.post-content table table{margin:0px;}
+.post-content table td {
+	padding: 5px;
+	border: 1px solid #333;
+}
+
+.post-content ul{
+	list-style: disc outside none;
+	padding-left: 25px;
+}
+
+.post-content ol{
+	padding-left: 25px;
+}
+
+.post-content li{
+	margin:5px 0;
+}
+
+#page-catalog-post  .post-image.detail_img{
+	width: 100%; 
+	text-align: left;  
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.post-content h2{
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.post-content h3{
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.post-content h4{
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.post-content .copyright{
+	color: #666;
+	font-size: 10px;
+}
