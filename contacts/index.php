@@ -22,12 +22,6 @@ $APPLICATION->SetPageProperty("section_class_html", "");
 Адрес: <strong>г. Димитровград, ЮНГ Северного Флота, д. 2/23</strong><br>
 Почтовый индекс:<strong> 433510</strong><br>
 
-<a href="#" id="map-marker-tol"><h2>г. Тольятти</h2></a>
-Телефон/факс: <strong>(88482) 69-50-62</strong><br>
-Телефон: <strong>(88482) 69-50-67</strong><br>
-Адрес: <strong>г. Тольятти, Коммунальная, д.27 офис 111</strong><br>
-Почтовый индекс: <strong>4345043</strong><br>
-
 <a href="#" id="map-marker-sam"><h2>г. Самара</h2></a>
 Телефон/факс: <strong>(8846)207-14-70</strong><br>
 Телефон: <strong>(8846)207-14-68</strong><br>

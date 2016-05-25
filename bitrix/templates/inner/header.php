@@ -129,43 +129,6 @@ IncludeTemplateLangFile(__FILE__);
 		};
 		
 		
-		/* “ŒÀ‹ﬂ““» */
-		var promkomTol_Position = new google.maps.LatLng(53.559149, 49.306050);
-		var promkomTol_MarkerImage1 = new google.maps.MarkerImage(
-			'../html/images/marker_tol.png',
-			new google.maps.Size(162,216),
-			new google.maps.Point(0,0),
-			new google.maps.Point(81,200)
-		);
-		var promkomTol_1 = new google.maps.Marker({
-			icon: promkomTol_MarkerImage1,
-			position: promkomTol_Position, 
-			map: map
-		});
-		var promkomTol_2 = new google.maps.Marker({
-			position: promkomTol_Position
-		});
-		var promkomTol_MarkerImage2 = new google.maps.MarkerImage(
-			'../html/images/name_map_main.png',
-			new google.maps.Size(130,30),
-			new google.maps.Point(0,0),
-			new google.maps.Point(0,0)
-		);
-		var promkomTol_3 = new google.maps.Marker({
-			icon: promkomTol_MarkerImage2,
-			position: promkomTol_Position
-		});
-		
-		google.maps.event.addListener(promkomTol_1, 'click', function() {
-			map.setZoom(16);
-			map.setCenter(promkomTol_1.getPosition());
-		});
-		document.getElementById("map-marker-tol").onclick = function(){
-			map.setZoom(16);
-			map.setCenter(promkomTol_1.getPosition());
-			return false;
-		};
-		
 		/* —¿Ã¿–¿ */
 		var promkomSam_Position = new google.maps.LatLng(53.228063, 50.290715);
 		var promkomSam_MarkerImage1 = new google.maps.MarkerImage(
